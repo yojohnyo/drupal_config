@@ -1,0 +1,2 @@
+Host github*.umn.edu
+    MACs hmac-sha2-512
