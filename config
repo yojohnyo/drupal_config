@@ -1,2 +1,4 @@
-Host github*.umn.edu
-    MACs hmac-sha2-512
+	Host github*
+	  ConnectTimeout 3
+	Host *
+	  StrictHostKeyChecking no
