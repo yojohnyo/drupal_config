@@ -1,6 +1,7 @@
 	Host github*
 	  KexAlgorithms ecdh-sha2-nistp256
 	  MACs hmac-sha2-256-etm@openssh.com
+	  IdentityFile ~/.ssh/drupa001
 	  ConnectTimeout 3
 	Host *
 	  StrictHostKeyChecking no
